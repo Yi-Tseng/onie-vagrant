@@ -1,0 +1,12 @@
+{
+    "builders": [{
+        "type": "virtualbox-vm",
+        "vm_name": "onie",
+        "output_directory": "./out",
+        "ssh_username": "root",
+        "communicator": "none",
+        "guest_additions_mode": "disable",
+        "virtualbox_version_file": ""
+    }],
+    "post-processors": ["vagrant"]
+}
